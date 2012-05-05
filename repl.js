@@ -123,6 +123,7 @@ function mailton(x){
 	window.location.reload();
 }
 $("document").ready(function(){
+alert('hey');
 chrome.extension.onRequest.addListener(function(request, sender, sendResponse) {
 	var sa_option = request.method;
 	mailton(sa_option);
