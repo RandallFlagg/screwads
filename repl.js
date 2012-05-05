@@ -123,14 +123,10 @@ function mailton(x){
 	window.location.reload();
 }
 $("document").ready(function(){
-chrome.extension.onRequest.addListener(function(request, sender, sendResponse) {
-	var sa_option = request.method;
-	mailton(sa_option);
-});
 var ap_bind = '<div class="screw-ads-block" style="display:inline-block;"><img src="" /> \
 <div class="main"> \
 	<ul> \
-		<li><img src="chrome-extension://mmbnjoljpgkhiaicaejkdcjbfjknipnc/16.png" class="screw-home" /></li> \
+		<li><img src="//screwads.googlecode.com/svn/icons/16.png" class="screw-home" /></li> \
 		<li><label for="in1"><input type="radio" name="method" value="1" id="in1" />SkipAds</label></li> \
 		<li><label for="in2"><input type="radio" name="method" value="2" id="in2" />ReplaceAds</label></li> \
 		<li><label for="in3"><input type="radio" name="method" value="3" id="in3" />None</label></li> \
