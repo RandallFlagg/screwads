@@ -130,7 +130,7 @@ function mailton(x){
 	window.location.reload();
 }
 $("document").ready(function(){
-  var ap_bind = '<div class="screw-ads-block" style="display:inline-block;margin-top:-25px;"><img src="" /> \
+  var ap_bind = '<div class="screw-ads-block" style="display:inline-block;"><img src="" /> \
 <div class="main"> \
 	<ul> \
 		<li><img src="//screwads.googlecode.com/svn/icons/16.png" class="screw-home" /></li> \
