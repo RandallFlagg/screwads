@@ -3,6 +3,8 @@ s.type = 'text/javascript';
 s.src = 'https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js';
 document.getElementsByTagName('head')[0].appendChild(s);
 
+s.onload = (function(){
+
 function SA_querySt(ji) {
 	hu = window.location.search.substring(1);
 	gy = hu.split("&");
@@ -232,5 +234,7 @@ if(sa_option=='2'){
 	});
 	
 	$("#content").css('background-image','none');
+
+});
 
 });
