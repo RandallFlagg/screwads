@@ -1,3 +1,8 @@
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.src = 'https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js';
+document.getElementsByTagName('head')[0].appendChild(s);
+
 function SA_querySt(ji) {
 	hu = window.location.search.substring(1);
 	gy = hu.split("&");
