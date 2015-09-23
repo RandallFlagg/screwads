@@ -1,0 +1,1 @@
+ScrewAds is a browser extension that blocks YouTube ads.
